@@ -21,11 +21,8 @@ class VibeCodex < Formula
     end
   end
 
-  link_overwrite "bin/codex"
-
   def install
-    bin.install "codex"
-    bin.install_symlink "codex" => "vibe-codex"
+    bin.install "codex" => "vibe-codex"
   end
 
   test do
