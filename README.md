@@ -12,7 +12,7 @@ brew install vibe-codex
 ## Usage
 
 ```bash
-codex
+vibe-codex
 ```
 
 ## Update
