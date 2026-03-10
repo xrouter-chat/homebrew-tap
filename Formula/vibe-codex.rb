@@ -7,10 +7,10 @@ class VibeCodex < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://vibe-console.online/releases/vibe-codex-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c0539a6fe90a8264cb9da57cf9a484bda517b73c4edae756731ec552e5dda781"
+      sha256 "67fc2eefb967213faf7960e53484fdda28fbe4236b53929a627c601f38caa2e1"
     else
       url "https://vibe-console.online/releases/vibe-codex-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c0539a6fe90a8264cb9da57cf9a484bda517b73c4edae756731ec552e5dda781"
+      sha256 "67fc2eefb967213faf7960e53484fdda28fbe4236b53929a627c601f38caa2e1"
     end
   end
 
